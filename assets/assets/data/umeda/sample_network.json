@@ -1,0 +1,1014 @@
+{
+  "stationId": "umeda",
+  "name": {
+    "ja": "梅田・大阪駅エリア",
+    "en": "Umeda / Osaka Station Area",
+    "es": "Área de Umeda / Estación de Osaka",
+    "pt": "Área de Umeda / Estação de Osaka",
+    "fr": "Zone d'Umeda / Gare d'Osaka",
+    "de": "Bereich Umeda / Bahnhof Osaka",
+    "it": "Area di Umeda / Stazione di Osaka"
+  },
+  "floors": [
+    { "level": -2, "name": "B2F", "label": "地下2階 (ディアモール・西梅田・北新地方面)" },
+    { "level": -1, "name": "B1F", "label": "地下1階 (ホワイティうめだ・各線地下改札階)" },
+    { "level": 1, "name": "1F", "label": "地上1階 (JR大阪駅各改札・コンコース・阪急地上)" },
+    { "level": 2, "name": "2F", "label": "2階 (時空の広場・連絡橋口・ルクア連絡通路)" },
+    { "level": 3, "name": "3F", "label": "3階 (連絡橋口改札口)" }
+  ],
+  "nodes": [
+    {
+      "id": "node_jr_central_gate",
+      "name": {
+        "ja": "JR大阪駅 中央口改札 (1F)",
+        "en": "JR Osaka Stn. Central Gate (1F)",
+        "es": "Estación JR Osaka - Puerta Central (1F)",
+        "pt": "Estação JR Osaka - Portão Central (1F)",
+        "fr": "Gare JR Osaka - Porte Centrale (1F)",
+        "de": "JR Bahnhof Osaka - Zentrales Tor (1F)",
+        "it": "Stazione JR Osaka - Porta Centrale (1F)"
+      },
+      "floor": 1,
+      "lat": 34.702550,
+      "lng": 135.496000,
+      "type": "gate",
+      "isCheckpoint": true
+    },
+    {
+      "id": "node_central_concourse_1f",
+      "name": {
+        "ja": "JR大阪駅 1F 中央コンコース広場",
+        "en": "JR Osaka 1F Central Concourse Plaza",
+        "es": "Plaza Concurso Central 1F JR Osaka",
+        "pt": "Praça Central do Concurso 1F JR Osaka",
+        "fr": "Place du Hall Central 1F JR Osaka",
+        "de": "JR Osaka 1F Zentrale Halle",
+        "it": "Piazza Centrale 1F JR Osaka"
+      },
+      "floor": 1,
+      "lat": 34.702350,
+      "lng": 135.496000,
+      "type": "landmark",
+      "isCheckpoint": true
+    },
+    {
+      "id": "node_tourist_info_1f",
+      "name": {
+        "ja": "JR大阪駅 観光案内所 (TIC)",
+        "en": "JR Osaka Tourist Information Center",
+        "es": "Centro de Información Turística JR Osaka",
+        "pt": "Centro de Informações Turísticas JR Osaka",
+        "fr": "Centre d'Information Touristique JR Osaka",
+        "de": "JR Osaka Touristen-Information",
+        "it": "Centro Informazioni Turistiche JR Osaka"
+      },
+      "floor": 1,
+      "lat": 34.702300,
+      "lng": 135.495800,
+      "type": "landmark",
+      "isCheckpoint": true
+    },
+    {
+      "id": "node_jr_locker_1f",
+      "name": {
+        "ja": "JR大阪駅 1F コインロッカー",
+        "en": "JR Osaka Stn. 1F Coin Lockers",
+        "es": "Estación JR Osaka 1F Taquillas",
+        "pt": "Estação JR Osaka 1F Armários",
+        "fr": "Gare JR Osaka 1F Casiers",
+        "de": "JR Bahnhof Osaka 1F Schließfächer",
+        "it": "Stazione JR Osaka 1F Armadietti"
+      },
+      "floor": 1,
+      "lat": 34.702500,
+      "lng": 135.495600,
+      "type": "locker",
+      "isCheckpoint": true
+    },
+    {
+      "id": "node_elevator_1f",
+      "name": {
+        "ja": "1F 中央エレベーター (車椅子・ベビーカー対応)",
+        "en": "1F Central Elevator (Accessible)",
+        "es": "1F Ascensor Central (Accesible)",
+        "pt": "1F Elevador Central (Acessível)",
+        "fr": "1F Ascenseur Central (Accessible)",
+        "de": "1F Zentraler Aufzug (Barrierefrei)",
+        "it": "1F Ascensore Centrale (Accessibile)"
+      },
+      "floor": 1,
+      "lat": 34.702350,
+      "lng": 135.496100,
+      "type": "elevator",
+      "isCheckpoint": true
+    },
+    {
+      "id": "node_stairs_1f_b1f",
+      "name": {
+        "ja": "中央コンコース 階段・エスカレーター (1F)",
+        "en": "Central Concourse Stairs / Escalator (1F)",
+        "es": "Escaleras / Mecánica Concurso Central (1F)",
+        "pt": "Escadas / Rolante Concurso Central (1F)",
+        "fr": "Escaliers / Roulant Hall Central (1F)",
+        "de": "Zentrale Halle Treppe / Rolltreppe (1F)",
+        "it": "Scale / Mobile Hall Centrale (1F)"
+      },
+      "floor": 1,
+      "lat": 34.702200,
+      "lng": 135.496000,
+      "type": "stairs_connector",
+      "isCheckpoint": false
+    },
+    {
+      "id": "node_south_corridor_junction_1f",
+      "name": {
+        "ja": "1F 南側東西連絡通路 分岐点",
+        "en": "1F South Passage Junction",
+        "es": "1F Intersección Paso Sur",
+        "pt": "1F Junção Passagem Sul",
+        "fr": "1F Jonction Passage Sud",
+        "de": "1F Süddurchgang Kreuzung",
+        "it": "1F Bivio Passaggio Sud"
+      },
+      "floor": 1,
+      "lat": 34.702000,
+      "lng": 135.496000,
+      "type": "corridor",
+      "isCheckpoint": false
+    },
+    {
+      "id": "node_south_passage_mid_1f",
+      "name": {
+        "ja": "1F 南側東西連絡通路 (中央-御堂筋間)",
+        "en": "1F South Concourse Corridor",
+        "es": "1F Pasillo Concurso Sur",
+        "pt": "1F Corredor Concurso Sul",
+        "fr": "1F Couloir Hall Sud",
+        "de": "1F Südhallen-Korridor",
+        "it": "1F Corridoio Hall Sud"
+      },
+      "floor": 1,
+      "lat": 34.702000,
+      "lng": 135.496800,
+      "type": "corridor",
+      "isCheckpoint": false
+    },
+    {
+      "id": "node_jr_south_gate",
+      "name": {
+        "ja": "JR大阪駅 南口改札 (1F)",
+        "en": "JR Osaka Stn. South Gate (1F)",
+        "es": "Estación JR Osaka - Puerta Sur (1F)",
+        "pt": "Estação JR Osaka - Portão Sul (1F)",
+        "fr": "Gare JR Osaka - Porte Sud (1F)",
+        "de": "JR Bahnhof Osaka - Südtor (1F)",
+        "it": "Stazione JR Osaka - Porta Sud (1F)"
+      },
+      "floor": 1,
+      "lat": 34.701850,
+      "lng": 135.496800,
+      "type": "gate",
+      "isCheckpoint": true
+    },
+    {
+      "id": "node_midosuji_south_junction_1f",
+      "name": {
+        "ja": "1F 御堂筋南口 連絡通路角",
+        "en": "1F Midosuji South Concourse Corner",
+        "es": "1F Esquina Concurso Midosuji Sur",
+        "pt": "1F Esquina Concurso Midosuji Sul",
+        "fr": "1F Angle Hall Midosuji Sud",
+        "de": "1F Midosuji Südhalle Ecke",
+        "it": "1F Angolo Hall Midosuji Sud"
+      },
+      "floor": 1,
+      "lat": 34.702000,
+      "lng": 135.497500,
+      "type": "corridor",
+      "isCheckpoint": false
+    },
+    {
+      "id": "node_stairs_midosuji_1f",
+      "name": {
+        "ja": "御堂筋口 階段 (1F)",
+        "en": "Midosuji Gate Stairs (1F)",
+        "es": "Escaleras Puerta Midosuji (1F)",
+        "pt": "Escadas Portão Midosuji (1F)",
+        "fr": "Escalier Porte Midosuji (1F)",
+        "de": "Midosuji-Tor Treppe (1F)",
+        "it": "Scale Porta Midosuji (1F)"
+      },
+      "floor": 1,
+      "lat": 34.702300,
+      "lng": 135.497500,
+      "type": "stairs_connector",
+      "isCheckpoint": false
+    },
+    {
+      "id": "node_jr_midosuji_gate",
+      "name": {
+        "ja": "JR大阪駅 御堂筋口改札 (1F)",
+        "en": "JR Osaka Stn. Midosuji Gate (1F)",
+        "es": "Estación JR Osaka - Puerta Midosuji (1F)",
+        "pt": "Estação JR Osaka - Portão Midosuji (1F)",
+        "fr": "Gare JR Osaka - Porte Midosuji (1F)",
+        "de": "JR Bahnhof Osaka - Midosuji-Tor (1F)",
+        "it": "Stazione JR Osaka - Porta Midosuji (1F)"
+      },
+      "floor": 1,
+      "lat": 34.702550,
+      "lng": 135.497500,
+      "type": "gate",
+      "isCheckpoint": true
+    },
+    {
+      "id": "node_west_corridor_junction_1f",
+      "name": {
+        "ja": "1F 桜橋口方面 連絡通路",
+        "en": "1F Sakurabashi Passage",
+        "es": "1F Paso hacia Sakurabashi",
+        "pt": "1F Passagem para Sakurabashi",
+        "fr": "1F Passage vers Sakurabashi",
+        "de": "1F Durchgang nach Sakurabashi",
+        "it": "1F Passaggio per Sakurabashi"
+      },
+      "floor": 1,
+      "lat": 34.702000,
+      "lng": 135.494800,
+      "type": "corridor",
+      "isCheckpoint": false
+    },
+    {
+      "id": "node_jr_sakurabashi_gate",
+      "name": {
+        "ja": "JR大阪駅 桜橋口改札 (1F)",
+        "en": "JR Osaka Stn. Sakurabashi Gate (1F)",
+        "es": "Estación JR Osaka - Puerta Sakurabashi (1F)",
+        "pt": "Estação JR Osaka - Portão Sakurabashi (1F)",
+        "fr": "Gare JR Osaka - Porte Sakurabashi (1F)",
+        "de": "JR Bahnhof Osaka - Sakurabashi-Tor (1F)",
+        "it": "Stazione JR Osaka - Porta Sakurabashi (1F)"
+      },
+      "floor": 1,
+      "lat": 34.702000,
+      "lng": 135.494200,
+      "type": "gate",
+      "isCheckpoint": true
+    },
+    {
+      "id": "node_stairs_1f_2f",
+      "name": {
+        "ja": "時空の広場・連絡橋口行き エスカレーター (1F)",
+        "en": "Escalator to 2F Bridge Deck (1F)",
+        "es": "Escalera mecánica a 2F (1F)",
+        "pt": "Escada rolante para 2F (1F)",
+        "fr": "Escalier roulant vers 2F (1F)",
+        "de": "Rolltreppe zu 2F (1F)",
+        "it": "Scala mobile per 2F (1F)"
+      },
+      "floor": 1,
+      "lat": 34.702450,
+      "lng": 135.496000,
+      "type": "stairs_connector",
+      "isCheckpoint": false
+    },
+    {
+      "id": "node_stairs_b1f_bottom",
+      "name": {
+        "ja": "中央階段下 (B1F)",
+        "en": "Central Stairs Bottom (B1F)",
+        "es": "Pie de escalera central (B1F)",
+        "pt": "Base da escada central (B1F)",
+        "fr": "Bas de l'escalier central (B1F)",
+        "de": "Treppenabsatz Zentrale (B1F)",
+        "it": "Base scale centrale (B1F)"
+      },
+      "floor": -1,
+      "lat": 34.702200,
+      "lng": 135.496000,
+      "type": "stairs_connector",
+      "isCheckpoint": false
+    },
+    {
+      "id": "node_elevator_b1f",
+      "name": {
+        "ja": "B1F 中央エレベーター (車椅子対応)",
+        "en": "B1F Central Elevator (Accessible)",
+        "es": "B1F Ascensor Central (Accesible)",
+        "pt": "B1F Elevador Central (Acessível)",
+        "fr": "B1F Ascenseur Central (Accessible)",
+        "de": "B1F Zentraler Aufzug (Barrierefrei)",
+        "it": "B1F Ascensore Centrale (Accessibile)"
+      },
+      "floor": -1,
+      "lat": 34.702350,
+      "lng": 135.496100,
+      "type": "elevator",
+      "isCheckpoint": true
+    },
+    {
+      "id": "node_b1f_south_passage",
+      "name": {
+        "ja": "B1F 地下東西連絡通路 (JR地下-地下鉄間)",
+        "en": "B1F East-West Underground Passage",
+        "es": "B1F Paso Subterráneo Este-Oeste",
+        "pt": "B1F Passagem Subterrânea Leste-Oeste",
+        "fr": "B1F Passage Souterrain Est-Ouest",
+        "de": "B1F Unterirdischer Ost-West-Durchgang",
+        "it": "B1F Passaggio Sotterraneo Est-Ovest"
+      },
+      "floor": -1,
+      "lat": 34.702000,
+      "lng": 135.496800,
+      "type": "corridor",
+      "isCheckpoint": false
+    },
+    {
+      "id": "node_stairs_midosuji_b1f",
+      "name": {
+        "ja": "御堂筋 階段下 (B1F)",
+        "en": "Midosuji Stairs Bottom (B1F)",
+        "es": "Pie de escalera Midosuji (B1F)",
+        "pt": "Base da escada Midosuji (B1F)",
+        "fr": "Bas de l'escalier Midosuji (B1F)",
+        "de": "Midosuji Treppenabsatz (B1F)",
+        "it": "Base scale Midosuji (B1F)"
+      },
+      "floor": -1,
+      "lat": 34.702300,
+      "lng": 135.497500,
+      "type": "stairs_connector",
+      "isCheckpoint": false
+    },
+    {
+      "id": "node_b1f_midosuji_junction",
+      "name": {
+        "ja": "B1F 御堂筋・地下鉄連絡広場",
+        "en": "B1F Midosuji Subway Junction Plaza",
+        "es": "B1F Plaza de Conexión Metro Midosuji",
+        "pt": "B1F Praça de Conexão Metrô Midosuji",
+        "fr": "B1F Place de Liaison Métro Midosuji",
+        "de": "B1F Midosuji U-Bahn Knotenpunkt",
+        "it": "B1F Piazza di Collegamento Metro Midosuji"
+      },
+      "floor": -1,
+      "lat": 34.702100,
+      "lng": 135.497800,
+      "type": "corridor",
+      "isCheckpoint": false
+    },
+    {
+      "id": "node_metro_umeda_north",
+      "name": {
+        "ja": "Osaka Metro 梅田駅 北改札 (B1F)",
+        "en": "Osaka Metro Umeda Stn. North Gate (B1F)",
+        "es": "Osaka Metro Estación Umeda - Puerta Norte (B1F)",
+        "pt": "Osaka Metro Estação Umeda - Portão Norte (B1F)",
+        "fr": "Osaka Metro Gare d'Umeda - Porte Nord (B1F)",
+        "de": "Osaka Metro Bahnhof Umeda - Nordtor (B1F)",
+        "it": "Osaka Metro Stazione di Umeda - Porta Nord (B1F)"
+      },
+      "floor": -1,
+      "lat": 34.702800,
+      "lng": 135.498000,
+      "type": "gate",
+      "isCheckpoint": true
+    },
+    {
+      "id": "node_metro_umeda_central",
+      "name": {
+        "ja": "Osaka Metro 梅田駅 中央改札 (B1F)",
+        "en": "Osaka Metro Umeda Stn. Central Gate (B1F)",
+        "es": "Osaka Metro Estación Umeda - Puerta Central (B1F)",
+        "pt": "Osaka Metro Estação Umeda - Portão Central (B1F)",
+        "fr": "Osaka Metro Gare d'Umeda - Porte Centrale (B1F)",
+        "de": "Osaka Metro Bahnhof Umeda - Zentraltor (B1F)",
+        "it": "Osaka Metro Stazione di Umeda - Porta Centrale (B1F)"
+      },
+      "floor": -1,
+      "lat": 34.702100,
+      "lng": 135.498000,
+      "type": "gate",
+      "isCheckpoint": true
+    },
+    {
+      "id": "node_umeda_toilet_b1f",
+      "name": {
+        "ja": "B1F 御堂筋コンコース 公衆トイレ",
+        "en": "B1F Midosuji Concourse Restroom",
+        "es": "B1F Aseos Concurso Midosuji",
+        "pt": "B1F Banheiro do Concurso Midosuji",
+        "fr": "B1F Toilettes Hall Midosuji",
+        "de": "B1F Midosuji Halle Toilette",
+        "it": "B1F Servizi igienici Hall Midosuji"
+      },
+      "floor": -1,
+      "lat": 34.702600,
+      "lng": 135.498200,
+      "type": "toilet",
+      "isCheckpoint": true
+    },
+    {
+      "id": "node_whity_center",
+      "name": {
+        "ja": "ホワイティうめだ センターモール (B1F)",
+        "en": "Whity Umeda Center Mall (B1F)",
+        "es": "Whity Umeda Centro Comercial (B1F)",
+        "pt": "Whity Umeda Shopping Central (B1F)",
+        "fr": "Whity Umeda Centre Commercial (B1F)",
+        "de": "Whity Umeda Zentrale Mall (B1F)",
+        "it": "Whity Umeda Galleria Centrale (B1F)"
+      },
+      "floor": -1,
+      "lat": 34.702000,
+      "lng": 135.499500,
+      "type": "landmark",
+      "isCheckpoint": true
+    },
+    {
+      "id": "node_whity_fountain",
+      "name": {
+        "ja": "ホワイティうめだ 泉の広場 (B1F)",
+        "en": "Whity Umeda Fountain of Forest (B1F)",
+        "es": "Whity Umeda Plaza de la Fuente (B1F)",
+        "pt": "Whity Umeda Praça da Fonte (B1F)",
+        "fr": "Whity Umeda Place de la Fontaine (B1F)",
+        "de": "Whity Umeda Brunnenplatz (B1F)",
+        "it": "Whity Umeda Piazza della Fontana (B1F)"
+      },
+      "floor": -1,
+      "lat": 34.701800,
+      "lng": 135.502000,
+      "type": "landmark",
+      "isCheckpoint": true
+    },
+    {
+      "id": "node_hanshin_umeda_gate",
+      "name": {
+        "ja": "阪神 大阪梅田駅 東改札 (B1F)",
+        "en": "Hanshin Osaka-Umeda Stn. East Gate (B1F)",
+        "es": "Estación Hanshin Osaka-Umeda - Puerta Este (B1F)",
+        "pt": "Estação Hanshin Osaka-Umeda - Portão Leste (B1F)",
+        "fr": "Gare Hanshin Osaka-Umeda - Porte Est (B1F)",
+        "de": "Hanshin Bahnhof Osaka-Umeda - Osttor (B1F)",
+        "it": "Stazione Hanshin Osaka-Umeda - Porta Est (B1F)"
+      },
+      "floor": -1,
+      "lat": 34.701200,
+      "lng": 135.497500,
+      "type": "gate",
+      "isCheckpoint": true
+    },
+    {
+      "id": "node_stairs_b1f_b2f",
+      "name": {
+        "ja": "ディアモール連絡階段 (B1F)",
+        "en": "Diamor Connecting Stairs (B1F)",
+        "es": "Escaleras de conexión Diamor (B1F)",
+        "pt": "Escadas de conexão Diamor (B1F)",
+        "fr": "Escalier de liaison Diamor (B1F)",
+        "de": "Diamor Verbindungstreppe (B1F)",
+        "it": "Scale di collegamento Diamor (B1F)"
+      },
+      "floor": -1,
+      "lat": 34.700900,
+      "lng": 135.497500,
+      "type": "stairs_connector",
+      "isCheckpoint": false
+    },
+    {
+      "id": "node_stairs_b2f_bottom",
+      "name": {
+        "ja": "ディアモール階段下 (B2F)",
+        "en": "Diamor Stairs Bottom (B2F)",
+        "es": "Pie de escalera Diamor (B2F)",
+        "pt": "Base da escada Diamor (B2F)",
+        "fr": "Bas de l'escalier Diamor (B2F)",
+        "de": "Diamor Treppenabsatz (B2F)",
+        "it": "Base scale Diamor (B2F)"
+      },
+      "floor": -2,
+      "lat": 34.700900,
+      "lng": 135.497500,
+      "type": "stairs_connector",
+      "isCheckpoint": false
+    },
+    {
+      "id": "node_diamor_north_passage",
+      "name": {
+        "ja": "ディアモール マーケットストリート北 (B2F)",
+        "en": "Diamor Market Street North (B2F)",
+        "es": "Diamor Calle Mercado Norte (B2F)",
+        "pt": "Diamor Rua do Mercado Norte (B2F)",
+        "fr": "Diamor Rue du Marché Nord (B2F)",
+        "de": "Diamor Marktstraße Nord (B2F)",
+        "it": "Diamor Via del Mercato Nord (B2F)"
+      },
+      "floor": -2,
+      "lat": 34.700600,
+      "lng": 135.497500,
+      "type": "corridor",
+      "isCheckpoint": false
+    },
+    {
+      "id": "node_diamor_circle_b2f",
+      "name": {
+        "ja": "ディアモール大阪 円形広場 (B2F)",
+        "en": "Diamor Osaka Circular Plaza (B2F)",
+        "es": "Plaza Circular Diamor Osaka (B2F)",
+        "pt": "Praça Circular Diamor Osaka (B2F)",
+        "fr": "Place Circulaire Diamor Osaka (B2F)",
+        "de": "Diamor Osaka Rundplatz (B2F)",
+        "it": "Piazza Circolare Diamor Osaka (B2F)"
+      },
+      "floor": -2,
+      "lat": 34.700400,
+      "lng": 135.497500,
+      "type": "landmark",
+      "isCheckpoint": true
+    },
+    {
+      "id": "node_diamor_west_passage",
+      "name": {
+        "ja": "ディアモール カジュアルストリート西 (B2F)",
+        "en": "Diamor Casual Street West (B2F)",
+        "es": "Diamor Calle Casual Oeste (B2F)",
+        "pt": "Diamor Rua Casual Oeste (B2F)",
+        "fr": "Diamor Rue Décontractée Ouest (B2F)",
+        "de": "Diamor Freizeitstraße West (B2F)",
+        "it": "Diamor Via Casual Ovest (B2F)"
+      },
+      "floor": -2,
+      "lat": 34.700400,
+      "lng": 135.496000,
+      "type": "corridor",
+      "isCheckpoint": false
+    },
+    {
+      "id": "node_metro_nishi_umeda",
+      "name": {
+        "ja": "Osaka Metro 四つ橋線 西梅田駅 北改札 (B2F)",
+        "en": "Osaka Metro Nishi-Umeda Stn. North Gate (B2F)",
+        "es": "Osaka Metro Estación Nishi-Umeda - Puerta Norte (B2F)",
+        "pt": "Osaka Metro Estação Nishi-Umeda - Portão Norte (B2F)",
+        "fr": "Osaka Metro Gare de Nishi-Umeda - Porte Nord (B2F)",
+        "de": "Osaka Metro Bahnhof Nishi-Umeda - Nordtor (B2F)",
+        "it": "Osaka Metro Stazione di Nishi-Umeda - Porta Nord (B2F)"
+      },
+      "floor": -2,
+      "lat": 34.700200,
+      "lng": 135.495200,
+      "type": "gate",
+      "isCheckpoint": true
+    },
+    {
+      "id": "node_diamor_south_passage",
+      "name": {
+        "ja": "ディアモール バラエティストリート南 (B2F)",
+        "en": "Diamor Variety Street South (B2F)",
+        "es": "Diamor Calle Variedad Sur (B2F)",
+        "pt": "Diamor Rua Variedade Sul (B2F)",
+        "fr": "Diamor Rue Variété Sud (B2F)",
+        "de": "Diamor Vielfaltstraße Süd (B2F)",
+        "it": "Diamor Via Varietà Sud (B2F)"
+      },
+      "floor": -2,
+      "lat": 34.699600,
+      "lng": 135.498000,
+      "type": "corridor",
+      "isCheckpoint": false
+    },
+    {
+      "id": "node_jr_kitashinchi_gate",
+      "name": {
+        "ja": "JR東西線 北新地駅 東改札 (B2F)",
+        "en": "JR Tozai Line Kitashinchi Stn. East Gate (B2F)",
+        "es": "Estación Kitashinchi Línea JR Tozai - Puerta Este (B2F)",
+        "pt": "Estação Kitashinchi Linha JR Tozai - Portão Leste (B2F)",
+        "fr": "Gare de Kitashinchi Ligne JR Tozai - Porte Est (B2F)",
+        "de": "JR Tozai-Linie Bahnhof Kitashinchi - Osttor (B2F)",
+        "it": "Stazione Kitashinchi Linea JR Tozai - Porta Est (B2F)"
+      },
+      "floor": -2,
+      "lat": 34.698900,
+      "lng": 135.498800,
+      "type": "gate",
+      "isCheckpoint": true
+    },
+    {
+      "id": "node_stairs_2f_bottom",
+      "name": {
+        "ja": "時空の広場 エスカレーター下 (2F)",
+        "en": "Toki no Hiroba Escalator Landing (2F)",
+        "es": "Plaza Toki Escalera mecánica (2F)",
+        "pt": "Praça Toki Escada rolante (2F)",
+        "fr": "Place Toki Escalier roulant (2F)",
+        "de": "Toki Platz Rolltreppe (2F)",
+        "it": "Piazza Toki Scala mobile (2F)"
+      },
+      "floor": 2,
+      "lat": 34.702450,
+      "lng": 135.496000,
+      "type": "stairs_connector",
+      "isCheckpoint": false
+    },
+    {
+      "id": "node_toki_plaza_2f",
+      "name": {
+        "ja": "JR大阪駅 2F 時空の広場 (連絡橋デッキ)",
+        "en": "JR Osaka 2F Toki no Hiroba (Bridge Deck)",
+        "es": "Plaza Toki no Hiroba 2F JR Osaka",
+        "pt": "Praça Toki no Hiroba 2F JR Osaka",
+        "fr": "Place Toki no Hiroba 2F JR Osaka",
+        "de": "Toki no Hiroba 2F JR Osaka",
+        "it": "Piazza Toki no Hiroba 2F JR Osaka"
+      },
+      "floor": 2,
+      "lat": 34.702500,
+      "lng": 135.496000,
+      "type": "landmark",
+      "isCheckpoint": true
+    },
+    {
+      "id": "node_lucua_connect_2f",
+      "name": {
+        "ja": "ルクア大阪 2F 連絡通路",
+        "en": "LUCUA Osaka 2F Connection Deck",
+        "es": "Pasarela de conexión 2F LUCUA Osaka",
+        "pt": "Passarela de conexão 2F LUCUA Osaka",
+        "fr": "Passerelle 2F LUCUA Osaka",
+        "de": "Verbindungsbrücke 2F LUCUA Osaka",
+        "it": "Passerella 2F LUCUA Osaka"
+      },
+      "floor": 2,
+      "lat": 34.703000,
+      "lng": 135.496000,
+      "type": "landmark",
+      "isCheckpoint": true
+    },
+    {
+      "id": "node_daimaru_connect_2f",
+      "name": {
+        "ja": "大丸梅田店 2F 連絡デッキ",
+        "en": "Daimaru Umeda 2F Connection Deck",
+        "es": "Pasarela 2F Daimaru Umeda",
+        "pt": "Passarela 2F Daimaru Umeda",
+        "fr": "Passerelle 2F Daimaru Umeda",
+        "de": "Verbindungsbrücke 2F Daimaru Umeda",
+        "it": "Passerella 2F Daimaru Umeda"
+      },
+      "floor": 2,
+      "lat": 34.701900,
+      "lng": 135.496000,
+      "type": "landmark",
+      "isCheckpoint": true
+    },
+    {
+      "id": "node_escalator_2f_3f",
+      "name": {
+        "ja": "3F 連絡橋口改札行き エスカレーター (2F)",
+        "en": "Escalator to 3F Bridge Gate (2F)",
+        "es": "Escalera mecánica a 3F (2F)",
+        "pt": "Escada rolante para 3F (2F)",
+        "fr": "Escalier roulant vers 3F (2F)",
+        "de": "Rolltreppe zu 3F (2F)",
+        "it": "Scala mobile per 3F (2F)"
+      },
+      "floor": 2,
+      "lat": 34.702500,
+      "lng": 135.495800,
+      "type": "stairs_connector",
+      "isCheckpoint": false
+    },
+    {
+      "id": "node_escalator_3f_top",
+      "name": {
+        "ja": "連絡橋口改札前 エスカレーター上 (3F)",
+        "en": "Bridge Gate Escalator Landing (3F)",
+        "es": "Llegada escalera mecánica 3F",
+        "pt": "Chegada escada rolante 3F",
+        "fr": "Arrivée escalator 3F",
+        "de": "Rolltreppenabsatz 3F",
+        "it": "Arrivo scala mobile 3F"
+      },
+      "floor": 3,
+      "lat": 34.702500,
+      "lng": 135.495800,
+      "type": "stairs_connector",
+      "isCheckpoint": false
+    },
+    {
+      "id": "node_jr_bridge_gate_3f",
+      "name": {
+        "ja": "JR大阪駅 連絡橋口改札 (3F)",
+        "en": "JR Osaka Stn. Bridge Gate (3F)",
+        "es": "Estación JR Osaka - Puerta del Puente (3F)",
+        "pt": "Estação JR Osaka - Portão da Ponte (3F)",
+        "fr": "Gare JR Osaka - Porte de la Passerelle (3F)",
+        "de": "JR Bahnhof Osaka - Brückentor (3F)",
+        "it": "Stazione JR Osaka - Porta del Ponte (3F)"
+      },
+      "floor": 3,
+      "lat": 34.702500,
+      "lng": 135.495500,
+      "type": "gate",
+      "isCheckpoint": true
+    }
+  ],
+  "edges": [
+    {
+      "from": "node_jr_central_gate",
+      "to": "node_central_concourse_1f",
+      "distanceMeters": 20.0,
+      "type": "walkway",
+      "accessible": true
+    },
+    {
+      "from": "node_central_concourse_1f",
+      "to": "node_tourist_info_1f",
+      "distanceMeters": 20.0,
+      "type": "walkway",
+      "accessible": true
+    },
+    {
+      "from": "node_central_concourse_1f",
+      "to": "node_jr_locker_1f",
+      "distanceMeters": 25.0,
+      "type": "walkway",
+      "accessible": true
+    },
+    {
+      "from": "node_central_concourse_1f",
+      "to": "node_elevator_1f",
+      "distanceMeters": 10.0,
+      "type": "walkway",
+      "accessible": true
+    },
+    {
+      "from": "node_central_concourse_1f",
+      "to": "node_stairs_1f_2f",
+      "distanceMeters": 12.0,
+      "type": "walkway",
+      "accessible": true
+    },
+    {
+      "from": "node_central_concourse_1f",
+      "to": "node_stairs_1f_b1f",
+      "distanceMeters": 15.0,
+      "type": "walkway",
+      "accessible": true
+    },
+    {
+      "from": "node_stairs_1f_b1f",
+      "to": "node_south_corridor_junction_1f",
+      "distanceMeters": 20.0,
+      "type": "walkway",
+      "accessible": true
+    },
+    {
+      "from": "node_south_corridor_junction_1f",
+      "to": "node_south_passage_mid_1f",
+      "distanceMeters": 75.0,
+      "type": "walkway",
+      "accessible": true
+    },
+    {
+      "from": "node_south_passage_mid_1f",
+      "to": "node_jr_south_gate",
+      "distanceMeters": 15.0,
+      "type": "walkway",
+      "accessible": true
+    },
+    {
+      "from": "node_south_passage_mid_1f",
+      "to": "node_midosuji_south_junction_1f",
+      "distanceMeters": 65.0,
+      "type": "walkway",
+      "accessible": true
+    },
+    {
+      "from": "node_midosuji_south_junction_1f",
+      "to": "node_stairs_midosuji_1f",
+      "distanceMeters": 30.0,
+      "type": "walkway",
+      "accessible": true
+    },
+    {
+      "from": "node_stairs_midosuji_1f",
+      "to": "node_jr_midosuji_gate",
+      "distanceMeters": 25.0,
+      "type": "walkway",
+      "accessible": true
+    },
+    {
+      "from": "node_south_corridor_junction_1f",
+      "to": "node_west_corridor_junction_1f",
+      "distanceMeters": 110.0,
+      "type": "walkway",
+      "accessible": true
+    },
+    {
+      "from": "node_west_corridor_junction_1f",
+      "to": "node_jr_sakurabashi_gate",
+      "distanceMeters": 55.0,
+      "type": "walkway",
+      "accessible": true
+    },
+    {
+      "from": "node_stairs_1f_b1f",
+      "to": "node_stairs_b1f_bottom",
+      "distanceMeters": 15.0,
+      "type": "stairs",
+      "accessible": false
+    },
+    {
+      "from": "node_stairs_midosuji_1f",
+      "to": "node_stairs_midosuji_b1f",
+      "distanceMeters": 15.0,
+      "type": "stairs",
+      "accessible": false
+    },
+    {
+      "from": "node_elevator_1f",
+      "to": "node_elevator_b1f",
+      "distanceMeters": 10.0,
+      "type": "elevator",
+      "accessible": true
+    },
+    {
+      "from": "node_stairs_b1f_bottom",
+      "to": "node_elevator_b1f",
+      "distanceMeters": 18.0,
+      "type": "walkway",
+      "accessible": true
+    },
+    {
+      "from": "node_stairs_b1f_bottom",
+      "to": "node_b1f_south_passage",
+      "distanceMeters": 75.0,
+      "type": "walkway",
+      "accessible": true
+    },
+    {
+      "from": "node_b1f_south_passage",
+      "to": "node_b1f_midosuji_junction",
+      "distanceMeters": 90.0,
+      "type": "walkway",
+      "accessible": true
+    },
+    {
+      "from": "node_stairs_midosuji_b1f",
+      "to": "node_b1f_midosuji_junction",
+      "distanceMeters": 30.0,
+      "type": "walkway",
+      "accessible": true
+    },
+    {
+      "from": "node_b1f_midosuji_junction",
+      "to": "node_metro_umeda_central",
+      "distanceMeters": 20.0,
+      "type": "walkway",
+      "accessible": true
+    },
+    {
+      "from": "node_metro_umeda_central",
+      "to": "node_umeda_toilet_b1f",
+      "distanceMeters": 55.0,
+      "type": "walkway",
+      "accessible": true
+    },
+    {
+      "from": "node_umeda_toilet_b1f",
+      "to": "node_metro_umeda_north",
+      "distanceMeters": 30.0,
+      "type": "walkway",
+      "accessible": true
+    },
+    {
+      "from": "node_b1f_midosuji_junction",
+      "to": "node_whity_center",
+      "distanceMeters": 150.0,
+      "type": "walkway",
+      "accessible": true
+    },
+    {
+      "from": "node_whity_center",
+      "to": "node_whity_fountain",
+      "distanceMeters": 230.0,
+      "type": "walkway",
+      "accessible": true
+    },
+    {
+      "from": "node_b1f_midosuji_junction",
+      "to": "node_hanshin_umeda_gate",
+      "distanceMeters": 100.0,
+      "type": "walkway",
+      "accessible": true
+    },
+    {
+      "from": "node_hanshin_umeda_gate",
+      "to": "node_stairs_b1f_b2f",
+      "distanceMeters": 35.0,
+      "type": "walkway",
+      "accessible": true
+    },
+    {
+      "from": "node_stairs_b1f_b2f",
+      "to": "node_stairs_b2f_bottom",
+      "distanceMeters": 15.0,
+      "type": "stairs",
+      "accessible": false
+    },
+    {
+      "from": "node_stairs_b2f_bottom",
+      "to": "node_diamor_north_passage",
+      "distanceMeters": 35.0,
+      "type": "walkway",
+      "accessible": true
+    },
+    {
+      "from": "node_diamor_north_passage",
+      "to": "node_diamor_circle_b2f",
+      "distanceMeters": 25.0,
+      "type": "walkway",
+      "accessible": true
+    },
+    {
+      "from": "node_diamor_circle_b2f",
+      "to": "node_diamor_west_passage",
+      "distanceMeters": 135.0,
+      "type": "walkway",
+      "accessible": true
+    },
+    {
+      "from": "node_diamor_west_passage",
+      "to": "node_metro_nishi_umeda",
+      "distanceMeters": 75.0,
+      "type": "walkway",
+      "accessible": true
+    },
+    {
+      "from": "node_diamor_circle_b2f",
+      "to": "node_diamor_south_passage",
+      "distanceMeters": 100.0,
+      "type": "walkway",
+      "accessible": true
+    },
+    {
+      "from": "node_diamor_south_passage",
+      "to": "node_jr_kitashinchi_gate",
+      "distanceMeters": 100.0,
+      "type": "walkway",
+      "accessible": true
+    },
+    {
+      "from": "node_stairs_1f_2f",
+      "to": "node_stairs_2f_bottom",
+      "distanceMeters": 25.0,
+      "type": "stairs",
+      "accessible": false
+    },
+    {
+      "from": "node_stairs_2f_bottom",
+      "to": "node_toki_plaza_2f",
+      "distanceMeters": 10.0,
+      "type": "walkway",
+      "accessible": true
+    },
+    {
+      "from": "node_toki_plaza_2f",
+      "to": "node_lucua_connect_2f",
+      "distanceMeters": 55.0,
+      "type": "walkway",
+      "accessible": true
+    },
+    {
+      "from": "node_toki_plaza_2f",
+      "to": "node_daimaru_connect_2f",
+      "distanceMeters": 65.0,
+      "type": "walkway",
+      "accessible": true
+    },
+    {
+      "from": "node_toki_plaza_2f",
+      "to": "node_escalator_2f_3f",
+      "distanceMeters": 20.0,
+      "type": "walkway",
+      "accessible": true
+    },
+    {
+      "from": "node_escalator_2f_3f",
+      "to": "node_escalator_3f_top",
+      "distanceMeters": 20.0,
+      "type": "stairs",
+      "accessible": false
+    },
+    {
+      "from": "node_escalator_3f_top",
+      "to": "node_jr_bridge_gate_3f",
+      "distanceMeters": 30.0,
+      "type": "walkway",
+      "accessible": true
+    }
+  ]
+}

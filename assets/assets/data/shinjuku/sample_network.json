@@ -1,0 +1,254 @@
+{
+  "stationId": "shinjuku",
+  "name": {
+    "ja": "新宿駅エリア",
+    "en": "Shinjuku Station Area",
+    "es": "Área de la Estación de Shinjuku",
+    "pt": "Área da Estação de Shinjuku",
+    "fr": "Zone de la Gare de Shinjuku",
+    "de": "Bereich Bahnhof Shinjuku",
+    "it": "Area della Stazione di Shinjuku"
+  },
+  "floors": [
+    { "level": -1, "name": "B1F", "label": "地下1階 (メトロプロムナード・各地下改札)" },
+    { "level": 1, "name": "1F", "label": "地上1階 (JR東口・西口・東西自由通路・南口)" },
+    { "level": 2, "name": "2F", "label": "2階 (新南改札・バスタ新宿・甲州街道デッキ)" }
+  ],
+  "nodes": [
+    {
+      "id": "node_shinjuku_east_gate",
+      "name": {
+        "ja": "JR新宿駅 東口改札",
+        "en": "JR Shinjuku Stn. East Gate",
+        "es": "Estación JR Shinjuku - Puerta Este",
+        "pt": "Estação JR Shinjuku - Portão Leste",
+        "fr": "Gare JR Shinjuku - Porte Est",
+        "de": "JR Bahnhof Shinjuku - Osttor",
+        "it": "Stazione JR Shinjuku - Porta Est"
+      },
+      "floor": -1,
+      "lat": 35.690921,
+      "lng": 139.700258,
+      "type": "gate",
+      "isCheckpoint": true
+    },
+    {
+      "id": "node_shinjuku_west_gate",
+      "name": {
+        "ja": "JR新宿駅 西口改札",
+        "en": "JR Shinjuku Stn. West Gate",
+        "es": "Estación JR Shinjuku - Puerta Oeste",
+        "pt": "Estação JR Shinjuku - Portão Oeste",
+        "fr": "Gare JR Shinjuku - Porte Ouest",
+        "de": "JR Bahnhof Shinjuku - Westtor",
+        "it": "Stazione JR Shinjuku - Porta Ovest"
+      },
+      "floor": -1,
+      "lat": 35.691456,
+      "lng": 139.699120,
+      "type": "gate",
+      "isCheckpoint": true
+    },
+    {
+      "id": "node_metro_promenade",
+      "name": {
+        "ja": "メトロプロムナード 中央部",
+        "en": "Metro Promenade Center",
+        "es": "Centro del Paseo Metro",
+        "pt": "Centro do Metro Promenade",
+        "fr": "Centre de la Promenade Métro",
+        "de": "Metro-Promenade Zentrum",
+        "it": "Centro della Metro Promenade"
+      },
+      "floor": -1,
+      "lat": 35.692010,
+      "lng": 139.701100,
+      "type": "landmark",
+      "isCheckpoint": true
+    },
+    {
+      "id": "node_shinjuku_exit_a6",
+      "name": {
+        "ja": "地下出入口 A6 (伊勢丹・中村屋方面)",
+        "en": "Exit A6 (for Isetan / Nakamuraya)",
+        "es": "Salida A6 (hacia Isetan / Nakamuraya)",
+        "pt": "Saída A6 (para Isetan / Nakamuraya)",
+        "fr": "Sortie A6 (vers Isetan / Nakamuraya)",
+        "de": "Ausgang A6 (Richtung Isetan)",
+        "it": "Uscita A6 (verso Isetan / Nakamuraya)"
+      },
+      "floor": -1,
+      "lat": 35.691650,
+      "lng": 139.702200,
+      "type": "exit",
+      "isCheckpoint": true
+    },
+    {
+      "id": "node_shinjuku_toilet_b1f",
+      "name": {
+        "ja": "メトロプロムナード 公衆トイレ",
+        "en": "Metro Promenade Restroom",
+        "es": "Aseos del Paseo Metro",
+        "pt": "Banheiro do Metro Promenade",
+        "fr": "Toilettes de la Promenade Métro",
+        "de": "Metro-Promenade Toilette",
+        "it": "Servizi igienici Metro Promenade"
+      },
+      "floor": -1,
+      "lat": 35.691800,
+      "lng": 139.700800,
+      "type": "toilet",
+      "isCheckpoint": true
+    },
+    {
+      "id": "node_shinjuku_stairs_b1f_1f",
+      "name": {
+        "ja": "東口 連絡階段下 (B1F)",
+        "en": "East Gate Stairs Bottom (B1F)",
+        "es": "Pie de escaleras Puerta Este (B1F)",
+        "pt": "Base da escada Portão Leste (B1F)",
+        "fr": "Bas escalier Porte Est (B1F)",
+        "de": "Osttor Treppe unten (B1F)",
+        "it": "Base scale Porta Est (B1F)"
+      },
+      "floor": -1,
+      "lat": 35.690800,
+      "lng": 139.700300,
+      "type": "stairs_connector",
+      "isCheckpoint": false
+    },
+    {
+      "id": "node_shinjuku_free_passage_1f",
+      "name": {
+        "ja": "JR新宿駅 東西自由通路 (1F)",
+        "en": "JR Shinjuku East-West Passage (1F)",
+        "es": "Paso Este-Oeste 1F JR Shinjuku",
+        "pt": "Passagem Leste-Oeste 1F JR Shinjuku",
+        "fr": "Passage Est-Ouest 1F JR Shinjuku",
+        "de": "Ost-West-Durchgang 1F JR Shinjuku",
+        "it": "Passaggio Est-Ovest 1F JR Shinjuku"
+      },
+      "floor": 1,
+      "lat": 35.691100,
+      "lng": 139.699800,
+      "type": "landmark",
+      "isCheckpoint": true
+    },
+    {
+      "id": "node_shinjuku_south_gate_1f",
+      "name": {
+        "ja": "JR新宿駅 南口改札 (1F)",
+        "en": "JR Shinjuku South Gate (1F)",
+        "es": "Puerta Sur 1F JR Shinjuku",
+        "pt": "Portão Sul 1F JR Shinjuku",
+        "fr": "Porte Sud 1F JR Shinjuku",
+        "de": "Südtor 1F JR Shinjuku",
+        "it": "Porta Sud 1F JR Shinjuku"
+      },
+      "floor": 1,
+      "lat": 35.689500,
+      "lng": 139.700200,
+      "type": "gate",
+      "isCheckpoint": true
+    },
+    {
+      "id": "node_shinjuku_stairs_1f_top",
+      "name": {
+        "ja": "東口 連絡階段 (1F)",
+        "en": "East Gate Stairs (1F)",
+        "es": "Escaleras Puerta Este (1F)",
+        "pt": "Escadas Portão Leste (1F)",
+        "fr": "Escalier Porte Est (1F)",
+        "de": "Osttor Treppe oben (1F)",
+        "it": "Scale Porta Est (1F)"
+      },
+      "floor": 1,
+      "lat": 35.690800,
+      "lng": 139.700300,
+      "type": "stairs_connector",
+      "isCheckpoint": false
+    },
+    {
+      "id": "node_shinjuku_busta_2f",
+      "name": {
+        "ja": "バスタ新宿・新南改札 (2F)",
+        "en": "Busta Shinjuku / New South Gate (2F)",
+        "es": "Busta Shinjuku / Puerta Nueva Sur (2F)",
+        "pt": "Busta Shinjuku / Portão Novo Sul (2F)",
+        "fr": "Busta Shinjuku / Porte Nouvelle Sud (2F)",
+        "de": "Busta Shinjuku / Neues Südtor (2F)",
+        "it": "Busta Shinjuku / Porta Nuova Sud (2F)"
+      },
+      "floor": 2,
+      "lat": 35.688800,
+      "lng": 139.700500,
+      "type": "gate",
+      "isCheckpoint": true
+    }
+  ],
+  "edges": [
+    {
+      "from": "node_shinjuku_east_gate",
+      "to": "node_metro_promenade",
+      "distanceMeters": 120.0,
+      "type": "walkway",
+      "accessible": true
+    },
+    {
+      "from": "node_shinjuku_west_gate",
+      "to": "node_metro_promenade",
+      "distanceMeters": 180.0,
+      "type": "walkway",
+      "accessible": true
+    },
+    {
+      "from": "node_metro_promenade",
+      "to": "node_shinjuku_exit_a6",
+      "distanceMeters": 90.0,
+      "type": "walkway",
+      "accessible": true
+    },
+    {
+      "from": "node_metro_promenade",
+      "to": "node_shinjuku_toilet_b1f",
+      "distanceMeters": 30.0,
+      "type": "walkway",
+      "accessible": true
+    },
+    {
+      "from": "node_shinjuku_east_gate",
+      "to": "node_shinjuku_stairs_b1f_1f",
+      "distanceMeters": 20.0,
+      "type": "walkway",
+      "accessible": true
+    },
+    {
+      "from": "node_shinjuku_stairs_b1f_1f",
+      "to": "node_shinjuku_stairs_1f_top",
+      "distanceMeters": 15.0,
+      "type": "stairs",
+      "accessible": false
+    },
+    {
+      "from": "node_shinjuku_stairs_1f_top",
+      "to": "node_shinjuku_free_passage_1f",
+      "distanceMeters": 40.0,
+      "type": "walkway",
+      "accessible": true
+    },
+    {
+      "from": "node_shinjuku_free_passage_1f",
+      "to": "node_shinjuku_south_gate_1f",
+      "distanceMeters": 170.0,
+      "type": "walkway",
+      "accessible": true
+    },
+    {
+      "from": "node_shinjuku_south_gate_1f",
+      "to": "node_shinjuku_busta_2f",
+      "distanceMeters": 80.0,
+      "type": "walkway",
+      "accessible": true
+    }
+  ]
+}
